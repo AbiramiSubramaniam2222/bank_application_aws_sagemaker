@@ -85,3 +85,4 @@ Add CI/CD pipeline for automated deployment
 Improve security and cost optimization
 
 ##This project was used to practically explore AWS SageMaker workflows, including model training, deployment, and monitoring.
+**Note: Some APIs follow older SageMaker SDK syntax; equivalent SDK v2 APIs can be used without changing the workflow **
