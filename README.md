@@ -8,15 +8,15 @@ The goal of this project is to understand how ML models are productionized on AW
 
 **Key Objectives**
 
-Understand AWS SageMaker architecture
+* Understand AWS SageMaker architecture
 
-Train a machine learning model on SageMaker
+* Train a machine learning model on SageMaker
 
-Deploy the model as a real-time endpoint
+* Deploy the model as a real-time endpoint
 
-Perform inference using the deployed endpoint
+* Perform inference using the deployed endpoint
 
-Monitor logs and performance using AWS tools
+* Monitor logs and performance using AWS tools
 
 **Technologies Used**
 
@@ -84,5 +84,6 @@ Add CI/CD pipeline for automated deployment
 
 Improve security and cost optimization
 
-##This project was used to practically explore AWS SageMaker workflows, including model training, deployment, and monitoring.
-**Note: Some APIs follow older SageMaker SDK syntax; equivalent SDK v2 APIs can be used without changing the workflow **
+##This project was used to practically explore AWS SageMaker workflows, including model training, deployment, and monitoring##
+
+**Note: Some APIs follow older SageMaker SDK syntax; equivalent SDK v2 APIs can be used without changing the workflow**
