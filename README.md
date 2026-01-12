@@ -1,12 +1,12 @@
 
-Bank Application – AWS SageMaker Deployment
-Overview
+**Bank Application – AWS SageMaker Deployment
+Overview**
 
 This project demonstrates how a Machine Learning model can be trained, deployed, and monitored using AWS SageMaker. The notebook walks through an end-to-end ML workflow, focusing on cloud deployment rather than only local model training.
 
 The goal of this project is to understand how ML models are productionized on AWS using managed services like SageMaker.
 
-Key Objectives
+**Key Objectives**
 
 Understand AWS SageMaker architecture
 
@@ -18,7 +18,7 @@ Perform inference using the deployed endpoint
 
 Monitor logs and performance using AWS tools
 
-Technologies Used
+**Technologies Used**
 
 Python
 
@@ -32,39 +32,39 @@ Jupyter Notebook
 
 Scikit-learn
 
-Workflow
+**Workflow**
 
-Data Preparation
+**1)Data Preparation**
 
 Load and preprocess the dataset
 
 Upload data to Amazon S3
 
-Model Training
+**2)Model Training**
 
 Configure SageMaker training job
 
 Train the model using managed infrastructure
 
-Model Deployment
+**3)Model Deployment**
 
 Deploy the trained model as a SageMaker endpoint
 
 Enable real-time predictions
 
-Inference
+**4)Inference****
 
 Send input data to the endpoint
 
 Receive predictions from the deployed model
 
-Monitoring
+**Monitoring**
 
 View logs using CloudWatch
 
 Track endpoint performance
 
-What I Learned
+**What I Learned**
 
 How SageMaker manages training and deployment without manual server setup
 
@@ -74,7 +74,7 @@ How models are deployed as scalable endpoints
 
 The difference between demo deployments and production-ready setups.
 
-Future Improvements
+**Future Improvements**
 
 Add model versioning
 
@@ -84,4 +84,4 @@ Add CI/CD pipeline for automated deployment
 
 Improve security and cost optimization
 
-This project was used to practically explore AWS SageMaker workflows, including model training, deployment, and monitoring.
+##This project was used to practically explore AWS SageMaker workflows, including model training, deployment, and monitoring.
